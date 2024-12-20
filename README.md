@@ -40,7 +40,8 @@ This project uses Prim's Algorithm to generate mazes. Starting from a random cel
 
 ## Maze Image
 
-![image](https://github.com/user-attachments/assets/044bb75d-2bd6-4aa9-8261-23ade9204a8e)
+![image](https://github.com/user-attachments/assets/6c3ca082-e0ea-4757-a16e-1b4a7e1bbf10)
+
 
 
 
