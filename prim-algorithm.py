@@ -14,7 +14,7 @@ pygame.init()
 
 # Constants
 WIDTH, HEIGHT = 600, 600
-ROWS, COLS = 100, 100
+ROWS, COLS = 100, 100       # change to increase/decrease number of squares
 CELL_SIZE = min(WIDTH // COLS, HEIGHT // ROWS)
 GENERATION_DELAY = 0.05  # Delay between steps in seconds
 
@@ -26,7 +26,7 @@ GREEN = (0, 255, 0)   # For highlighting current cell
 
 # Create window
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Prim's Maze Generator Visualization")
+pygame.display.set_caption("Prim's Maze")
 
 def draw_grid(grid, current=None, frontier=None):
     screen.fill(WHITE)
