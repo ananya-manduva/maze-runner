@@ -16,7 +16,7 @@ This project demonstrates how to generate mazes using Prim's Algorithm in Pygame
 1. Clone this repository:
    ```bash
    git clone https://github.com/ananya-manduva/maze-runner.git
-   cd maze-generation-pygame
+   cd maze-runner
    ```
 
 2. Install the required Python library:
@@ -40,6 +40,7 @@ This project uses Prim's Algorithm to generate mazes. Starting from a random cel
 
 ## Maze Image
 
+![image](https://github.com/user-attachments/assets/044bb75d-2bd6-4aa9-8261-23ade9204a8e)
 
 
 
