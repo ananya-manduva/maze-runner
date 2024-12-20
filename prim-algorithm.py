@@ -24,6 +24,7 @@ BLACK = (0, 0, 0)
 RED = (255, 0, 0)     # For highlighting frontier cells
 GREEN = (0, 255, 0)   # For highlighting current cell
 
+
 # Create window
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Prim's Maze")
@@ -53,7 +54,7 @@ def draw_grid(grid, current=None, frontier=None):
     
     pygame.display.flip()
 
-def generate_maze_step_by_step():
+def generate_maze():
     # Initialize grid with walls
     grid = [[1 for _ in range(COLS)] for _ in range(ROWS)]
     
@@ -123,11 +124,11 @@ def main():
                 running = False
             elif event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_SPACE:
-                    grid = generate_maze_step_by_step()
+                    grid = generate_maze()
         
         # Generate initial maze if none exists
         if grid is None:
-            grid = generate_maze_step_by_step()
+            grid = generate_maze()
         
         # Draw the final maze state
         if grid:
